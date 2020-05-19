@@ -57,7 +57,9 @@ const GoodsCard = ({ id, avatar, name, count, price, changeCount, removeGood }) 
       <p className="goods-item__price">
         &#36;{price * itemCount}
       </p>
-      <button onClick={deleteGood} type="button" className="goods-item__remove-btn" />
+      <button onClick={deleteGood} type="button" className="goods-item__remove-btn">
+        <img src="images/cancel.svg" width="16" alt="Remove good from the list" />
+      </button>
     </article>
   );
 };

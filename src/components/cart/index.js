@@ -11,7 +11,9 @@ import './styles.scss';
 
 const Cart = ({ allGoods, fullPrice, changeCount, removeGood, refreshData }) => (
   <article className="goods-cart">
-    <button type="button" className="goods-cart__close-btn" />
+    <button type="button" className="goods-cart__close-btn">
+      <img src="images/close.svg" width="16" alt="Close cart" />
+    </button>
 
     <h2 className="goods-cart__title">
       My cart
@@ -24,7 +26,7 @@ const Cart = ({ allGoods, fullPrice, changeCount, removeGood, refreshData }) => 
     <ul className="goods-cart__info">
       <li className="goods-cart__info-item">
         <div className="goods-cart__info-item-image">
-          <img src="/images/package.svg" width="53" alt="Delivery time" />
+          <img src="images/package.svg" width="53" alt="Delivery time" />
         </div>
         <div className="goods-cart__info-item-desc">
           <h3>11:30 AM - 12:00 PM</h3>
@@ -33,7 +35,7 @@ const Cart = ({ allGoods, fullPrice, changeCount, removeGood, refreshData }) => 
       </li>
       <li className="goods-cart__info-item">
         <div className="goods-cart__info-item-image">
-          <img src="/images/location.svg" width="47" alt="Company address" />
+          <img src="images/location.svg" width="47" alt="Company address" />
         </div>
         <div className="goods-cart__info-item-desc">
           <h3>City Store</h3>
