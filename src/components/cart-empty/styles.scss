@@ -1,0 +1,20 @@
+.cart-empty {
+  padding: 20px 0;
+  text-align: center;
+  border: 1px solid #CBCBCB;
+  border-radius: 14px;
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__refresh-btn {
+    padding: 15px 30px;
+    border-radius: 34px;
+    background-color: #5FA01B;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
